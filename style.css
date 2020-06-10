@@ -1,0 +1,98 @@
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+@media (max-width: 720px) {
+/* For a screen < 720px, this CSS will be read */
+.container {
+    width: 500px;
+    }
+}
+@media (max-width: 540px) {
+/* For a screen < 540px, this CSS will be read */
+.container {
+    width: 300px;
+    }
+}
+
+img {
+    width: 100%;
+    height: 100%;
+  }
+  
+body {
+    background: #F4C82A;
+    font-family: 'Alegreya', serif;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 3em;
+    color: #F5F5F5;
+    display: block;
+    width: auto;
+}
+
+.btn {
+    background-color: #F5F5F5;
+    color: black;
+    padding: 15px 20px;
+    margin: 20px;
+    border-radius: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2em;
+    vertical-align: middle;
+    width: auto;
+}
+
+.container {
+    margin: 20px auto;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+  
+a:hover {
+    text-decoration: none;
+}
+
+.overlay {
+    z-index: 100;
+    position: absolute;
+    left: 23%;
+    top: 8%;
+    right: 8%;
+    font-size: 1.2vw;
+    display: block;
+    width: auto;
+}
+
+#social {
+    margin: 24px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+    width: auto;
+}
+
+#profile {
+    position: relative;
+    padding-left: 18%;
+    top: 15px;
+    flex-wrap: wrap;
+}
